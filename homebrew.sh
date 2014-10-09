@@ -63,14 +63,6 @@ else
     echo "Error: pass file from '$ brew list > homebrew.txt' as a parameter. Aborting"
 fi
 
-# Tell the user what they're getting themself into
-echo "Executing command:"
-echo -e "${cmd} \n"
-
-# Install the stuff ***now**!
-${cmd}
-wait
-
 # get the end time in seconds
 END=$(date +%s)
 
