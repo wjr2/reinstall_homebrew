@@ -1,8 +1,8 @@
-#### A couple of quick scripts to automagically reinstall all homebrew formulae
+#### A couple of quick scripts to automagically install a list of homebrew formulae
 
 Requirements:
 
-	Homebrew
+	Homebrew (http://brew.sh)
 
 	BASH
 
