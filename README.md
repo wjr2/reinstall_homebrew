@@ -1,6 +1,6 @@
 #### A couple of quick scripts to automagically install a list of homebrew formulae
 
-Requirements:
+-- Requirements:
 
 	Homebrew (http://brew.sh)
 
@@ -8,10 +8,27 @@ Requirements:
 
 	Python
 
-	File with list of formulae from previous machine; "$ brew list > file.txt"
+	File with list of formulae from previous machine -- "$ brew list > file.txt"
 	
-#### Problems?
-Contact Billy at fdf16862 - at - opayq.com  
+-- Process:
+
+	0) locate your newline separated file of formulae to install; e.g., ./file.txt
+	
+	1) from git repo, run "$ bash homebrew.sh file.txt"
+	
+	2) pour a glass of your favorite beverage (I'll have a Racer 5 IPA, thanks.)
+	
+	3) wait nearly an eternity (depending on which formulae you're installing)
+	
+	4) rejoice in having saved yourself some time!
+	
+#### Problems with homebrew installation?
+
+	stackexchange.com is your friend. 
+
+#### Problems with these scripts? 
+
+	Contact Billy at fdf16862 - at - opayq.com  
 
 #### The MIT License (MIT)
 
