@@ -1,0 +1,14 @@
+# text editors
+#################
+*~
+
+# python
+################
+*pyo
+*pyc
+
+# OS X
+################
+.DS_Store
+.Spotlight-V100
+.Trashes
