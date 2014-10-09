@@ -1,14 +1,19 @@
-A couple of quick scripts to automagically reinstall all homebrew
+#### A couple of quick scripts to automagically reinstall all homebrew formulae
 
 Requirements:
-	Homebrew 
+
+	Homebrew
+
 	BASH
+
 	Python
+
 	File with list of formulae from previous machine; "$ brew list > file.txt"
 	
-Problems? Contact Billy at fdf16862 - at - opayq.com  
+#### Problems?
+Contact Billy at fdf16862 - at - opayq.com  
 
-The MIT License (MIT)
+#### The MIT License (MIT)
 
 Copyright (c) 2014 William J. Robbins II
 
