@@ -2,7 +2,7 @@
 
 -- Requirements:
 
-	Homebrew (http://brew.sh) or Ruby & Curl, if we're installing Homebrew
+	Homebrew (http://brew.sh)
 
 	BASH
 
