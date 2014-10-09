@@ -14,6 +14,14 @@ START=$(date +%s)
 # tell the user what time it is, yo!
 echo -e "\nStarting $( date '+%b %d %H:%M:%S') \n"
 
+# check to see if Hombrew is not installed
+if ![ -x `command -v brew` ]; then
+    # ... then install it
+    echo -e "Installing Homebrew from: https://raw.githubusercontent.com/Homebrew/install/master/install"
+    # official brew.sh install
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    wait
+    
 # if the file of formulae to install exists, use it. Otherwise, abandon ship!
 if [ -f $1 ];then
 
